@@ -32,25 +32,29 @@ export default {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 45px;
   margin: 0;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 15px;
+  @media (min-width: 768px){
+
+    font-size: 70px;
+  }
   @media (min-width: 1200px) {
     font-size: 100px;
   }
-  @media (min-width: 768px){
 
-    font-size: 80px;
-  }
 }
 .quotation{
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   padding: 0 10px;
+  @media (min-width: 1024px){
+    margin-bottom: 50px;
+  }
   & q {
     text-align: center;
     font-size: 16px;
