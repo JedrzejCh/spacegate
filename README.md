@@ -10,15 +10,8 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
+### Live app
 ```
-npm run lint
+https://spacegate.netlify.app/
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
