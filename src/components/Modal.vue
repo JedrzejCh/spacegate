@@ -30,7 +30,6 @@ export default {
     }
   },
   mounted() {
-    console.log(this.modalData)
     this.photoPath = this.modalData.links[0].href,
         this.description = this.modalData.data[0].description,
         this.title = this.modalData.data[0].title
